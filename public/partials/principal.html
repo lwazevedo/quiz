@@ -1,0 +1,20 @@
+<div class="jumbotron">
+	<h1 class="text-center">dzQuiz</h1>
+</div>
+
+<p ng-show="mensagem.length" class="alert alert-info">
+	{{mensagem}}
+</p>
+
+<div class="row">
+	<div ng-repeat="p in perguntas">
+		{{p.titulo}}
+		<div ng-repeat="respostas in p.respostas">
+			{{respostas.titulo}}
+		</div>
+	</div>
+
+	<!-- <meu-painel class="col-md-2 painel-animado" ng-repeat="perguntas in perguntas" titulo="{{perguntas.titulo}}">
+		
+	</meu-painel> -->
+</div>

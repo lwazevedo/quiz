@@ -1,0 +1,74 @@
+{
+	
+	"perguntas": [{
+		"id": "1",
+		"titulo": "De manhã, você:",
+		"peso": "5",
+		"respostas": [{
+			
+				"id": "1",
+				"titulo": "teste",
+				"serieId": "1"
+			},
+			 {
+				"id": "2",
+				"titulo": "teste",
+				"serieId": "2"
+			},
+			{
+				"id": "3",
+				"titulo": "teste",
+				"serieId": "3"
+			},
+			 {
+				"id": "4",
+				"titulo": "teste",
+				"serieId": "4"
+			},
+			 {
+				"id": "5",
+				"titulo": "teste",
+				"serieId": "5"
+			}
+		]
+	}, {
+		"id": "2",
+		"titulo": "Indo para o trabalho você encontra uma senhora idosa caída na rua.",
+		"peso": "4",
+		"respostas": [
+			 {
+				"id": "1",
+				"titulo": "teste",
+				"serieId": "1"
+			},
+			 {
+				"id": "2",
+				"titulo": "teste",
+				"serieId": "2"
+			},
+			 {
+				"id": "3",
+				"titulo": "teste",
+				"serieId": "3"
+			},
+			 {
+				"id": "4",
+				"titulo": "teste",
+				"serieId": "4"
+			},
+			 {
+				"id": "5",
+				"titulo": "teste",
+				"serieId": "5"
+			}
+		]
+	}],
+
+	"series": [{
+		"id": "1",
+		"nome": "xxxx"
+	}, {
+		"id": "2",
+		"nome": "xxxx"
+	}]
+}
