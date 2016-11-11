@@ -7,7 +7,7 @@ angular.module('Quiz')
 	$scope.selected = [];
 	$scope.message = '';
 	$scope.winner;
-
+	
 
 	$http.get('/questions')
 	.success(function(questions) {
@@ -38,6 +38,7 @@ angular.module('Quiz')
 
 			}				
 		}
+	
 		
 	};
 
@@ -48,12 +49,13 @@ angular.module('Quiz')
 
 
 	$scope.onSubmit = function() {
+		
 		if($scope.selected.length != $scope.questions.questions.length){
 			$scope.message = 'Favor responder todas as perguntas';
 		} else{
 			let equal;
 			let max = 0;
-			let serieIdWinner;
+			let serieIdWinner = 0;
 			for(let pos in $scope.selected){						
 				equal = $scope.selected.filter(function(element){
 					return  element.questionId != $scope.selected[pos].questionId && element.serieId == $scope.selected[pos].serieId;
@@ -63,17 +65,16 @@ angular.module('Quiz')
 					$scope.selected[pos].weight += equal.weight;
 					$scope.selected.splice($scope.selected.indexOf(equal),1); 	
 				}		
+
 				if ($scope.selected[pos].weight > max){
+					//console.log($scope.selected[pos].weight);
 					max = $scope.selected[pos].weight;
-					serieIWinner = $scope.selected[pos].serieId;
+					serieIdWinner = $scope.selected[pos].serieId;
 				}							
-			}
-
+			}			
 			$scope.winner = $scope.questions.result.filter(function(element){
-				return element.id == serieIWinner;
+				return element.id == serieIdWinner;
 			})[0];
-
-
 
 		}
 	};

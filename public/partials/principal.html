@@ -39,10 +39,10 @@
 	<p ng-show="winner" class="alert alert-success">
 		{{winner.phrase}}
 	</p>
-	<button type="button" class="btn btn-success btn-block btn-lg" ng-click="onSubmit()" >
+	<button type="button" class="btn btn-success btn-block btn-lg" ng-disabled="winner" ng-click="onSubmit()" >
 		Enviar Respostas
 	</button>
-	<button type="button" class="btn btn-danger btn-block btn-lg" ng-click="onRecover()" >
+	<button type="button" class="btn btn-danger btn-block btn-lg"  ng-click="onRecover()" >
 		Responder Novamente
 	</button>
 </form>
