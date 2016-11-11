@@ -39,24 +39,20 @@ Node >= 6.9.1 Instalação em linux via package-manager (https://nodejs.org/en/d
 
 ######Caso de teste: 
  ```	
- Pergunta: De manhã, você:
- Resposta: Levanta e faz café para todos da casa.
- ```	
- ```	
+ Pergunta: De manhã, você
+ Resposta: Levanta e faz café para todos da casa
+ 
  Pergunta: Indo para o trabalho você encontra uma senhora idosa caída na rua
- Resposta: Levanta a senhora e jura protegê-la com sua vida.
- ```	
- ```	
- Pergunta: Chega no prédio e o elevador está cheio.
- Resposta: Convence parte das pessoas a esperarem o próximo.
- ```	
- ```	
- Pergunta: Você chega no trabalho e as convenções sociais te obrigam a puxar assunto.
- Resposta: Puxa um assunto e te lembram que já foi discutido semana passada.
- ```	
- ```	
- Pergunta: A pauta pegou o dia todo, mas você está indo para casa.
- Resposta: No ponto de ônibus mais uma vez, espero não errar a linha de novo.
+ Resposta: Levanta a senhora e jura protegê-la com sua vida
+ 
+ Pergunta: Chega no prédio e o elevador está cheio
+ Resposta: Convence parte das pessoas a esperarem o próximo
+ 
+ Pergunta: Você chega no trabalho e as convenções sociais te obrigam a puxar assunto
+ Resposta: Puxa um assunto e te lembram que já foi discutido semana passada
+ 
+ Pergunta: A pauta pegou o dia todo, mas você está indo para casa
+ Resposta: No ponto de ônibus mais uma vez, espero não errar a linha de novo
  ```
 `Resultado: Você é Lost: Faz as coisas sem ter total certeza se é o caminho certo ou se faz sentido, 
  mas no final dá tudo certo.`
