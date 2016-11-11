@@ -36,10 +36,10 @@ git clone https://github.com/lwazevedo/quiz.git
 
 
 
-Caso de Teste:
+######Caso de Teste:
 ```
-git: status
-git: add
+Pergunta: De manhã, você:
+Resposta: Levanta e faz café para todos da casa.
 git: commit
 ```
  
