@@ -38,9 +38,9 @@ git clone https://github.com/lwazevedo/quiz.git
 
 ##Caso de teste: 
  ```
- Pergunta: 
+ Pergunta
  	De manhã, você
- Resposta: 
+ Resposta 
  	Levanta e faz café para todos da casa
  ```	
 
