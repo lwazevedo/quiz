@@ -1,32 +1,31 @@
-<form name"questionForm" novalidate="true" ng-submit="onSubmit()">
-	<p ng-show="mensagem.length" class="alert alert-info">
-		{{mensagem}}
-	</p>
+<form name"questionsForm" ng-submit="onSubmit()" >
+
 	<div class="panel panel-default">
 		<div class="panel-heading">
-			<h2 class="panel-title">Perguntas</h2>
+			<h2 class="panel-title">Quiz / Perguntas e Respostas</h2>
 			
 		</div>
 
 		<div class="panel-body">
 			<div class="row">
 				<div class=" form-group">
-					<div class="m-l-10  form-group" ng-repeat="p in perguntas track by $index">
-						<h4><strong>{{$index +1 }} - {{p.titulo}}</strong></h4>
-						<div class="  form-group">
-							<div ng-repeat="r in p.respostas track by $index " class="m-l-25 radio">
-								<label>
-									{{indice[$index]}})
-								</label>
-								<label>	
-									<input ng-click="adicionaResposta(r.id, r.serieId, p.id, p.peso)" 
-									name="{{p.id}}" 
-									type="radio" required>
-									{{r.titulo}}
-								</label>
+					<div class="m-l-20 " ng-repeat="question in questions.questions track by $index">
+						<h4><strong>{{$index +1 }} - {{question.title}} </strong></h4>						
+						<div ng-repeat="answer in question.answers track by $index " class="m-l-25 radio">
+							<label>
+								{{alphabet[$index]}})
+							</label>
+							<label>	
+								<input ng-click="addQuestion({questionId: question.id, serieId: answer.serieId, weight: question.weight})"
+								required 
+								name="{{question.id}}" 
+								type="radio">
+								{{answer.title}}
 
-							</div>
+							</label>
+
 						</div>
+						
 					</div>
 					
 				</div>
@@ -34,8 +33,11 @@
 		</div>
 
 	</div>	
-	<p ng-show="fraseFinal.length" class="alert alert-info">
-		{{fraseFinal[0].Frase}}
+	<p ng-show="message.length" class="alert alert-danger">
+		{{message}}
+	</p>
+	<p ng-show="winner" class="alert alert-success">
+		{{winner.phrase}}
 	</p>
 	<button type="button" class="btn btn-success btn-block btn-lg" ng-click="onSubmit()" >
 		Enviar Respostas
@@ -44,29 +46,3 @@
 		Responder Novamente
 	</button>
 </form>
-
-
-<!-- <p ng-show="mensagem.length" class="alert alert-info">
-	{{mensagem}}
-</p>
-
-<div class="row">
-	<ul>
-		<li ng-repeat="p in perguntas"> 
-		{{p.titulo}}	
-		<select ng-options="respostas in p.respostas"></select>
-		</li>
-	</ul>
-
-
-	<div ng-repeat="p in perguntas">
-		{{p.titulo}}
-		<div ng-repeat="respostas in p.respostas">
-			{{respostas.titulo}}
-		</div>
-	</div>
-
-	<meu-painel class="col-md-2 painel-animado" ng-repeat="perguntas in perguntas" titulo="{{perguntas.titulo}}">
-		
-	</meu-painel> 
-</div> -->
