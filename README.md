@@ -40,10 +40,10 @@ git clone https://github.com/lwazevedo/quiz.git
 ```
 Pergunta: De manhã, você:
 Resposta: Levanta e faz café para todos da casa.
-git: commit:
-git: commit:
-git: commit:
-git: commit:
+Pergunta: Indo para o trabalho você encontra uma senhora idosa caída na rua:
+Resposta: Levanta a senhora e jura protegê-la com sua vida.
+Pergunta: commit:
+Resposta: commit:
 ```
  
 
