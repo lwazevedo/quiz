@@ -38,10 +38,10 @@ git clone https://github.com/lwazevedo/quiz.git
 
 ##Caso de teste: 
  ```
- Pergunta
- 	De manhã, você
- Resposta 
- 	Levanta e faz café para todos da casa
+ -Pergunta
+ De manhã, você
+ -Resposta 
+ Levanta e faz café para todos da casa
  ```	
 
  
