@@ -48,6 +48,9 @@ Pergunta: Você chega no trabalho e as convenções sociais te obrigam a puxar a
 Resposta: Puxa um assunto e te lembram que já foi discutido semana passada.
 Pergunta: A pauta pegou o dia todo, mas você está indo para casa:
 Resposta: No ponto de ônibus mais uma vez, espero não errar a linha de novo.
+
+Resultado: Você é Lost: Faz as coisas sem ter total certeza se é o caminho certo ou se faz sentido, 
+mas no final dá tudo certo.
 ```
  
 
