@@ -180,18 +180,18 @@
 
 	"result":[{
 		"id": 1,
-		"phrase": "Você é House of Cards: Decisões baseadas em emoções não são decisões. São instintos."
+		"phrase": "Você é House of Cards: ataca o problema com método e faz de tudo para resolver a situação."
 	}, {
 		"id": 2,
-		"phrase": "Você é Game of Thrones: Um homem verdadeiro faz o que quer, não o que deve."
+		"phrase": "Você é Game of Thrones: não tem muita delicadeza nas ações, mas resolve o problema de forma prática."
 	},{
 		"id": 3,
 		"phrase": " Você é Lost: Faz as coisas sem ter total certeza se é o caminho certo ou se faz sentido, mas no final dá tudo certo."
 	},{
 		"id": 4,
-		"phrase": "Você é Breaking Bad: Se você se empenhar o suficiente pode fazer qualquer história resultar."
+		"phrase": "Você é Breaking Bad: pra fazer acontecer você toma a liderança, mas sempre contando com seus parceiros."
 	},{
 		"id": 5,
-		"phrase": "Você é Silicon Valley: O navio está salvo no pier, mas ficar lá não é para que eles são feitos."
+		"phrase": "Você é Silicon Valley: vive a tecnologia o tempo todo e faz disso um mantra para cada situação no dia."
 	}]
 }
