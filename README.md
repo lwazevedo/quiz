@@ -42,8 +42,10 @@ Pergunta: De manhã, você:
 Resposta: Levanta e faz café para todos da casa.
 Pergunta: Indo para o trabalho você encontra uma senhora idosa caída na rua:
 Resposta: Levanta a senhora e jura protegê-la com sua vida.
-Pergunta: commit:
-Resposta: commit:
+Pergunta: Chega no prédio e o elevador está cheio:
+Resposta: Convence parte das pessoas a esperarem o próximo.
+Pergunta: Você chega no trabalho e as convenções sociais te obrigam a puxar assunto:
+Resposta: Puxa um assunto e te lembram que já foi discutido semana passada.
 ```
  
 
