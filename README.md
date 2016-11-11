@@ -40,7 +40,10 @@ git clone https://github.com/lwazevedo/quiz.git
 ```
 Pergunta: De manhã, você:
 Resposta: Levanta e faz café para todos da casa.
-git: commit
+git: commit:
+git: commit:
+git: commit:
+git: commit:
 ```
  
 
