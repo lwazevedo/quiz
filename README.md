@@ -36,11 +36,11 @@ git clone https://github.com/lwazevedo/quiz.git
 
 
 
-Some basic Git commands are:
+Caso de Teste:
 ```
-git status
-git add
-git commit
+git: status
+git: add
+git: commit
 ```
  
 
