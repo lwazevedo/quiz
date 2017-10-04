@@ -1,5 +1,5 @@
 # Quiz
-#### Um simples quiz que informa que série de TV você é baseado em como você age em algumas situações do dia-a-dia.
+##### Um simples quiz que informa que série de TV você é baseado em como você age em algumas situações do dia-a-dia.
 
 # Requisitos
 ## Os seguintes requisitos devem ser cumpridos para poder executar o Quiz em uma máquina local:
