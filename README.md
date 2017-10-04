@@ -2,7 +2,7 @@
 ##### Um simples quiz que informa que série de TV você é baseado em como você age em algumas situações do dia-a-dia.
 
 # Requisitos
-## Os seguintes requisitos devem ser cumpridos para poder executar o Quiz em uma máquina local:
+##### Os seguintes requisitos devem ser cumpridos para poder executar o Quiz em uma máquina local:
 ```
 SO (de sua preferência)
 Git
@@ -11,27 +11,27 @@ Node >= 6.9.1 Instalação em linux via package-manager (https://nodejs.org/en/d
 
 # Preparação
 
-## Clone o projeto:
+##### Clone o projeto:
 ```
 git clone https://lwazevedo@bitbucket.org/lwnProjetos/quiz.git
 git clone https://github.com/lwazevedo/quiz.git
 ```
 
-## Entre no Diretório: `cd quiz`
+##### Entre no Diretório: `cd quiz`
 
-## Execute os comandos a seguir:
+##### Execute os comandos a seguir:
 
-## Dependências do projeto: `npm install`
+##### Dependências do projeto: `npm install`
 
-## Verificar api: `npm test`
+##### Verificar api: `npm test`
 
-## Valor esperado: `Routes Questions Route GET /questions ✓ should return a list of questions 1 passing (36ms)` 
+##### Valor esperado: `Routes Questions Route GET /questions ✓ should return a list of questions 1 passing (36ms)` 
 
-## startar a aplicação: `npm star`
+##### startar a aplicação: `npm star`
 
-## Valor esperado: `Quiz -- executando servidor na porta: 3000`
+##### Valor esperado: `Quiz -- executando servidor na porta: 3000`
 
-## Após startar a aplicação a mesma estara disponível em: (http://localhost:3000/)
+##### Após startar a aplicação a mesma estara disponível em: (http://localhost:3000/)
 
 
 
